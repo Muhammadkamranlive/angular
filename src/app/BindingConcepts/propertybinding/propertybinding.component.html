@@ -1,0 +1,50 @@
+<div class="container px-5">
+    <div class="row">
+        <div class="col-xl-3">
+            <div class="card shadow border-0 my-5">
+               <div class="text-center p-3">
+                <img  [src]="imgUrl" class="card-img-top " style="height: 100px;width:100px; border-radius: 50%;" alt="author">
+               </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">John Smith</h5>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-xl-4">
+            <div class="card shadow border-0 my-5">
+                <h5>Attribute Binding</h5>
+                <table class="table table-striped p-3">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col" >First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td [attr.colspan]="colspan">Mark</td>
+                       
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td >Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td [attr.colspan]="colspan">Larry  </td>
+                        
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>  
+            </div>
+        </div>
+    </div>
+</div>

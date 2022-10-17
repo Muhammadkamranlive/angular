@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xl-4">
+            <div class="card shadow p-5">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        course title:{{course.title |uppercase |lowercase}}
+                    </li>
+                    <li class="nav-item">
+                        Students:{{course.students |number}}
+                    </li>
+                    <li class="nav-item">
+                        course rating:{{course.rating |number}}
+                    </li>
+                    <li class="nav-item">
+                        course release Date:{{course.releaseDate |  date: 'd/M/y'}}
+                    </li>
+                  </ul>
+               
+               
+                
+                
+            </div>
+        </div>    
+    </div>
+</div>

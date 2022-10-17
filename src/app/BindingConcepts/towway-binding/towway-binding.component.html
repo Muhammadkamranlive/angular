@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="d-flex justify-content-center">
+                <div class="card border-0 shadow p-5">
+                    <p>
+                        form Data 
+                        userName is :{{Name}}
+                        Email is :{{Email}}
+                    </p>
+                    {{
+                        getData()
+                    }}
+                  <form action="">
+                      <div class="form-group">
+                          <label for="Name">Name</label>
+                          <input type="text" [value]="Name" name="Name" class="form-control" [(ngModel)]="Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="Name">email</label>
+                          <input type="text" [value]="Email" name="Name" class="form-control" [(ngModel)]="Email">
+                      </div>
+                     
+                  </form>
+                </div>
+          </div>
+        </div>
+    </div>
+</div>
